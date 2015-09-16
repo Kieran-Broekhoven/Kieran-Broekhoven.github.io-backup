@@ -10,8 +10,11 @@ h2{
     float: left;
 }
 
-.intro{
+.column{
     text-align: center;
+    break-after: always;
+    -moz-column-break-after: always;
+    -webkit-column-break-after: always;
 }
 
 .subtitle{
@@ -20,16 +23,23 @@ h2{
 
 .subtitle2{
     font-size: 15pt;
-    text-align: center;
 }
 
 .company{
 	text-align: center;
+    font-color: green;
 }
 
 #workexp{
     -webkit-column-count: 3;
     -moz-column-count: 3;
+    
+    -webkit-column-gap: 0px;
+}
+
+#interests{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
     
     -webkit-column-gap: 0px;
 }
