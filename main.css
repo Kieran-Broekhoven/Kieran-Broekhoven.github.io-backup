@@ -9,3 +9,22 @@ h2{
 .resume{
     float: left;
 }
+
+.intro{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 20pt;
+}
+
+.subtitle2{
+    font-size: 15pt;
+}
+
+#workexp{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    
+    -webkit-column-gap: 0px;
+}
