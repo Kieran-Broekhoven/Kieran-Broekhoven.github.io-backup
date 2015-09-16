@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.email{
+    float: right;
+}
+
+#2cols{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    
+    -webkit-column-gap: 1px;
+}
