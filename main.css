@@ -23,6 +23,10 @@ h2{
     text-align: center;
 }
 
+.company{
+	text-align: center;
+}
+
 #workexp{
     -webkit-column-count: 3;
     -moz-column-count: 3;
