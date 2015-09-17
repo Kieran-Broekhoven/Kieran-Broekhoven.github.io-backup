@@ -33,13 +33,18 @@ h2{
 #workexp{
     -webkit-column-count: 3;
     -moz-column-count: 3;
-    
     -webkit-column-gap: 0px;
+}
+
+.info{
+    text-align: justify;
 }
 
 #interests{
     -webkit-column-count: 4;
     -moz-column-count: 4;
-    
-    -webkit-column-gap: 0px;
+}
+
+h4{
+    text-align: center;
 }
