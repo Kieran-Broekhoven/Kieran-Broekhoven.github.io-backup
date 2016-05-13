@@ -1,15 +1,3 @@
-h1{
-    text-align: center;
-}
-
-h2{
-    text-align: right;
-}
-
-.resume{
-    float: left;
-}
-
 .column{
     text-align: center;
     break-after: always;
@@ -19,10 +7,6 @@ h2{
 
 .subtitle{
     font-size: 20pt;
-}
-
-.subtitle2{
-    font-size: 15pt;
 }
 
 .company{
@@ -47,4 +31,40 @@ h2{
 
 h4{
     text-align: center;
+}
+
+.intro{
+    font-size: 15pt;
+    margin-left: auto;
+}
+
+.vcenter{
+    vertical-align: middle;
+}
+
+.div{
+    border-style: solid;
+}
+
+#engsoc{
+    float: right;
+
+}
+
+h1{
+    font-size: 3em;
+}
+
+.navbar{
+    background-color: #000080;
+    color: #000000;
+}
+
+body{
+    background-color: #F5F5F5;
+    margin: 20px;
+}
+
+li.dropdown:hover > ul.dropdown-menu{
+    display: block;
 }
