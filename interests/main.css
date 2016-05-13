@@ -1,0 +1,25 @@
+#interests{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+}
+
+.subtitle{
+    font-size: 20pt;
+}
+
+.subtitle2{
+    font-size: 15pt;
+    margin-left: auto;
+}
+
+body{
+    background-color: #F5F5F5;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.navbar{
+    background-color: #000080;
+    color: #000000;
+}

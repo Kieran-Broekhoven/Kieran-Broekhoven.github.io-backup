@@ -1,0 +1,28 @@
+.subtitle{
+    font-size: 20pt;
+}
+
+
+.intro{
+    font-size: 15pt;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #000080;
+    color: #000000;
+}
+
+body{
+    background-color: #F5F5F5;
+    margin: 20px;
+}
+
+li.dropdown:hover > ul.dropdown-menu{
+    display: block;
+}

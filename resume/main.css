@@ -1,0 +1,5 @@
+#TextSection{
+    -webkit-columns: 50px 2; 
+    -moz-columns: 50px 2; 
+    columns: 50px 2;  
+}
