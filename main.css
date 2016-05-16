@@ -53,11 +53,8 @@ h4{
 
 h1{
     font-size: 3em;
-}
-
-.navbar{
-    background-color: #000080;
-    color: #000000;
+/*    font-family: "Palatino Linotype";*/
+    font-family: "Century Gothic";
 }
 
 body{
@@ -67,4 +64,11 @@ body{
 
 li.dropdown:hover > ul.dropdown-menu{
     display: block;
+}
+
+.link{
+    background-color: #000080;
+    color: #C0C0C0;
+    width: 300px;
+    margin-left: 30px;
 }

@@ -15,12 +15,12 @@ h1{
 
 .navbar{
     background-color: #000080;
-    color: #000000;
 }
 
 body{
     background-color: #F5F5F5;
     margin: 20px;
+    margin-top: 70px;
 }
 
 li.dropdown:hover > ul.dropdown-menu{
