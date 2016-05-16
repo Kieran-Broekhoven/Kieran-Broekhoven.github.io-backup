@@ -1,0 +1,21 @@
+.skills{
+    text-align: center;
+    font-family: monospace;
+}
+
+h1{
+    font-family: "Lucida Grande";
+}
+
+button{
+    font-size: 15pt;
+}
+
+hr{
+    background-color: #000080;
+    height: 3px;
+}
+
+#btn_3A{
+    font-weight: 'bold';
+}
