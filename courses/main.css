@@ -19,3 +19,8 @@ hr{
 #btn_3A{
     font-weight: 'bold';
 }
+
+.skills button{
+    font-size: 12pt;
+    background-color: #FFF08A;
+}

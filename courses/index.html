@@ -32,7 +32,7 @@
         }    
     </script>
     
-    <body onload="collapse_all('3A')">
+    <body onload="collapse_all('1A')">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <ul class="nav navbar-nav">
                 <li><a href="../index.html">Home</a></li>
@@ -62,17 +62,29 @@
             <button onclick="collapse_all('3A')" id="btn_3A">3A - Summer 2016</button>
         </div>
         <hr>
+        
+        <script type="text/javascript">
+            function bold_courses(skill){
+                courses = document.getElementsByClassName(skill);
+                
+                for (var i=0; i<courses.length; i++){
+                    courses[i].bold();
+                }
+            }
+        </script>
 
         <div id="1A" class="collapse row">
             <div class="col-md-7">
                 <p class="text-center">Main skills gained:</p>
-                <p class="skills">C++ | AutoCAD | SolidWorks</p>
+                <div class="skills">
+                    <button onmouseover="bold_courses('cpp');">C++</button> | <button>AutoCAD</button> | <button>SolidWorks</button>
+                </div><br>
                 <p>In 1A we are introduced to the very fundementals of engineering. We learned the necessary math and chemistry for more advanced courses, as well as the basics of programming.<br><br>In MTE 100 we were introduced to mechatronics, as well as engineering graphics using both freehand sketching as well as CAD. The pictures Lego robot was my first introduction to an engineering project - a robot that could drive around and shoot ping pong balls into cups.</p>
-                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-CHE.html#CHE102">CHE 102: Chemistry for Engineers</a><br>
-                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-GENE.html#GENE121">GENE 121: Digital Computation</a><br>
-                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-MATH.html#MATH115">MATH 115: Linear Algebra for Engineering</a><br>
-                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-MATH.html#MATH116">MATH 116: Calculus 1 for Engineering</a><br>
-                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-MTE.html#MTE100">MTE 100:  Mechatronics Engineering</a>
+                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-CHE.html#CHE102" class="btn">CHE 102: Chemistry for Engineers</a><br>
+                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-GENE.html#GENE121" class="btn cpp">GENE 121: Digital Computation</a><br>
+                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-MATH.html#MATH115" class="btn">MATH 115: Linear Algebra for Engineering</a><br>
+                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-MATH.html#MATH116" class="btn">MATH 116: Calculus 1 for Engineering</a><br>
+                <a href="http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-MTE.html#MTE100" class="btn acad sw">MTE 100:  Mechatronics Engineering</a>
             </div>
             <div  class="col-md-5">
                 <br><img src="robot.jpg" class="img-responsive"/>
