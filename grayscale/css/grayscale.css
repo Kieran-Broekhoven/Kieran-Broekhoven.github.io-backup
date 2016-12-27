@@ -539,7 +539,8 @@ a.page-scroll{
     background-image: url(../../linkedin.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50px;
+    height: 30px;
+    content: '';
 }
 
 .phone{
