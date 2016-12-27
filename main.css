@@ -46,11 +46,13 @@ h4{
 
 .intro{
     font-size: 15pt;
+    color: #808080;
     margin-left: auto;
 }
 
 .vcenter{
     vertical-align: middle;
+    float: none;
 }
 
 .div{
