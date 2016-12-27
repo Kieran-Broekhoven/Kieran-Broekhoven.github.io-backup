@@ -300,7 +300,7 @@ a:focus {
     position: relative;
 }
 .coop-section:after {
-  background-image: url(../../coop/coop4/otto.jpg);
+  background-image: url(../../otto.jpg);
     content: ' ';
     display: block;
     position: absolute;
