@@ -467,10 +467,13 @@ a.page-scroll{
 .term{
     margin: 5px;
     padding-top: 5px;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.7);
     word-wrap: break-word;
 }
 
+.term-middle{
+    background-color: rgba(128, 128, 128, 0.9);
+}
 .section-header{
       margin: 0 0 10px;
     text-align: center;
@@ -545,4 +548,8 @@ a.page-scroll{
 
 .phone{
       color: #42DCA3;
+}
+
+.align-left{
+    text-align: left;
 }
