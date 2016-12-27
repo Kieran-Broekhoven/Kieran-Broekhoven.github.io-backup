@@ -137,10 +137,10 @@ a:focus {
   text-align: center;
   color: white;
   background-color: transparent;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  -o-background-size: 100% auto;
 }
 .intro::after{
     background: url(../../greatwall.jpg) no-repeat bottom center fixed;
