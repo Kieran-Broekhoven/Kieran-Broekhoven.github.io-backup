@@ -467,12 +467,8 @@ a.page-scroll{
 .term{
     margin: 5px;
     padding-top: 5px;
-    background-color: rgba(128, 128, 128, 0.7);
+    background-color: rgba(128, 128, 128, 0.8);
     word-wrap: break-word;
-}
-
-.term-middle{
-    background-color: rgba(128, 128, 128, 0.9);
 }
 .section-header{
       margin: 0 0 10px;
