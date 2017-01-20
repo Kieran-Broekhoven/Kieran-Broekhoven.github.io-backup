@@ -452,8 +452,8 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
-.img-responsive{
-    width: 200px;
+.face{
+    height: 325px;
 }
 
 a.page-scroll{
